@@ -13,6 +13,37 @@
 		2858DA351F68BF7D005325A3 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2858DA341F68BF7D005325A3 /* test.jpg */; };
 		28615CFE209F8AD000E3D237 /* transloadit.png in Resources */ = {isa = PBXBuildFile; fileRef = 28615CFD209F8AD000E3D237 /* transloadit.png */; };
 		287BD35120EC709900A599C3 /* TransloaditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TransloaditViewController.m */; };
+		288D098422DCE5E000F7A3BB /* TransloaditKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */; };
+		288D098B22DCE5E000F7A3BB /* TransloaditKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D098A22DCE5E000F7A3BB /* TransloaditKitTests.m */; };
+		288D098D22DCE5E000F7A3BB /* TransloaditKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 288D097D22DCE5E000F7A3BB /* TransloaditKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288D099022DCE5E000F7A3BB /* TransloaditKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */; };
+		288D099122DCE5E000F7A3BB /* TransloaditKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		288D09B922DCE67000F7A3BB /* test.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 288D099A22DCE66000F7A3BB /* test.jpg */; };
+		288D09BA22DCE67300F7A3BB /* Transloadit.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D099C22DCE66000F7A3BB /* Transloadit.h */; };
+		288D09BB22DCE67700F7A3BB /* NSString+Utils.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D099D22DCE66000F7A3BB /* NSString+Utils.h */; };
+		288D09BC22DCE67B00F7A3BB /* TransloaditResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D099E22DCE66000F7A3BB /* TransloaditResponse.h */; };
+		288D09BD22DCE67F00F7A3BB /* Resources.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A022DCE66000F7A3BB /* Resources.h */; };
+		288D09BE22DCE68200F7A3BB /* TransloaditConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A222DCE66000F7A3BB /* TransloaditConstants.h */; };
+		288D09BF22DCE68700F7A3BB /* URLConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A422DCE66000F7A3BB /* URLConstants.h */; };
+		288D09C022DCE68700F7A3BB /* Assembly.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A522DCE66000F7A3BB /* Assembly.h */; };
+		288D09C122DCE68700F7A3BB /* Step.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A622DCE66000F7A3BB /* Step.h */; };
+		288D09C222DCE68700F7A3BB /* APIObjectType.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A722DCE66000F7A3BB /* APIObjectType.h */; };
+		288D09C322DCE68700F7A3BB /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A822DCE66000F7A3BB /* Template.m */; };
+		288D09C422DCE68700F7A3BB /* APIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09A922DCE66000F7A3BB /* APIObject.m */; };
+		288D09C522DCE68700F7A3BB /* Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AA22DCE66000F7A3BB /* Assembly.m */; };
+		288D09C622DCE68700F7A3BB /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AB22DCE66000F7A3BB /* Step.m */; };
+		288D09C722DCE68700F7A3BB /* APIState.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AC22DCE66000F7A3BB /* APIState.h */; };
+		288D09C822DCE68700F7A3BB /* APIObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AD22DCE66000F7A3BB /* APIObject.h */; };
+		288D09C922DCE68700F7A3BB /* Template.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AE22DCE66000F7A3BB /* Template.h */; };
+		288D09CA22DCE68E00F7A3BB /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = 288D09AF22DCE66000F7A3BB /* .gitkeep */; };
+		288D09CB22DCE68E00F7A3BB /* TransloaditProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B022DCE66000F7A3BB /* TransloaditProtocol.h */; };
+		288D09CC22DCE68E00F7A3BB /* TransloaditRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B122DCE66000F7A3BB /* TransloaditRequest.m */; };
+		288D09CD22DCE68E00F7A3BB /* TransloaditDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B222DCE66000F7A3BB /* TransloaditDelegate.h */; };
+		288D09CE22DCE68E00F7A3BB /* Transloadit.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B322DCE66000F7A3BB /* Transloadit.m */; };
+		288D09CF22DCE68E00F7A3BB /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B622DCE66000F7A3BB /* NSString+Utils.m */; };
+		288D09D022DCE68E00F7A3BB /* TransloaditResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B722DCE66000F7A3BB /* TransloaditResponse.m */; };
+		288D09D122DCE68E00F7A3BB /* TransloaditRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 288D09B822DCE66000F7A3BB /* TransloaditRequest.h */; };
+		288D0A1C22DCE91F00F7A3BB /* tus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D0A1B22DCE91F00F7A3BB /* tus.framework */; };
 		28C00B3C1ECD8F1900430748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C00B3B1ECD8F1900430748 /* AppDelegate.m */; };
 		28C00B3F1ECD8F1900430748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C00B3E1ECD8F1900430748 /* main.m */; };
 		28C00B421ECD8F1900430748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C00B411ECD8F1900430748 /* ViewController.m */; };
@@ -35,6 +66,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		288D098522DCE5E000F7A3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288D097A22DCE5E000F7A3BB;
+			remoteInfo = TransloaditKit;
+		};
+		288D098722DCE5E000F7A3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = Transloadit_Example;
+		};
+		288D098E22DCE5E000F7A3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288D097A22DCE5E000F7A3BB;
+			remoteInfo = TransloaditKit;
+		};
 		28C00B4E1ECD8F1900430748 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -65,6 +117,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				288D099122DCE5E000F7A3BB /* TransloaditKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +130,39 @@
 		28123E871F832782004CD204 /* Transloadit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Transloadit.podspec; path = ../Transloadit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2858DA341F68BF7D005325A3 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		28615CFD209F8AD000E3D237 /* transloadit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transloadit.png; sourceTree = "<group>"; };
+		288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransloaditKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		288D097D22DCE5E000F7A3BB /* TransloaditKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditKit.h; sourceTree = "<group>"; };
+		288D097E22DCE5E000F7A3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288D098322DCE5E000F7A3BB /* TransloaditKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransloaditKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288D098A22DCE5E000F7A3BB /* TransloaditKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransloaditKitTests.m; sourceTree = "<group>"; };
+		288D098C22DCE5E000F7A3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288D099922DCE66000F7A3BB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		288D099A22DCE66000F7A3BB /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		288D099C22DCE66000F7A3BB /* Transloadit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transloadit.h; sourceTree = "<group>"; };
+		288D099D22DCE66000F7A3BB /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		288D099E22DCE66000F7A3BB /* TransloaditResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditResponse.h; sourceTree = "<group>"; };
+		288D09A022DCE66000F7A3BB /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
+		288D09A222DCE66000F7A3BB /* TransloaditConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditConstants.h; sourceTree = "<group>"; };
+		288D09A422DCE66000F7A3BB /* URLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConstants.h; sourceTree = "<group>"; };
+		288D09A522DCE66000F7A3BB /* Assembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
+		288D09A622DCE66000F7A3BB /* Step.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		288D09A722DCE66000F7A3BB /* APIObjectType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIObjectType.h; sourceTree = "<group>"; };
+		288D09A822DCE66000F7A3BB /* Template.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Template.m; sourceTree = "<group>"; };
+		288D09A922DCE66000F7A3BB /* APIObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIObject.m; sourceTree = "<group>"; };
+		288D09AA22DCE66000F7A3BB /* Assembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assembly.m; sourceTree = "<group>"; };
+		288D09AB22DCE66000F7A3BB /* Step.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		288D09AC22DCE66000F7A3BB /* APIState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIState.h; sourceTree = "<group>"; };
+		288D09AD22DCE66000F7A3BB /* APIObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIObject.h; sourceTree = "<group>"; };
+		288D09AE22DCE66000F7A3BB /* Template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		288D09AF22DCE66000F7A3BB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		288D09B022DCE66000F7A3BB /* TransloaditProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditProtocol.h; sourceTree = "<group>"; };
+		288D09B122DCE66000F7A3BB /* TransloaditRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransloaditRequest.m; sourceTree = "<group>"; };
+		288D09B222DCE66000F7A3BB /* TransloaditDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditDelegate.h; sourceTree = "<group>"; };
+		288D09B322DCE66000F7A3BB /* Transloadit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transloadit.m; sourceTree = "<group>"; };
+		288D09B622DCE66000F7A3BB /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		288D09B722DCE66000F7A3BB /* TransloaditResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransloaditResponse.m; sourceTree = "<group>"; };
+		288D09B822DCE66000F7A3BB /* TransloaditRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransloaditRequest.h; sourceTree = "<group>"; };
+		288D0A1B22DCE91F00F7A3BB /* tus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tus.framework; path = ../../TUSKit/Example/Carthage/Build/iOS/tus.framework; sourceTree = "<group>"; };
 		28C00B381ECD8F1900430748 /* Transloadit_MacOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transloadit_MacOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C00B3A1ECD8F1900430748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28C00B3B1ECD8F1900430748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +207,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		288D097822DCE5E000F7A3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D0A1C22DCE91F00F7A3BB /* tus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288D098022DCE5E000F7A3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D098422DCE5E000F7A3BB /* TransloaditKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28C00B351ECD8F1900430748 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				288D099022DCE5E000F7A3BB /* TransloaditKit.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				2FB9C8D74C411896B72BCB96 /* Pods_Transloadit_Example.framework in Frameworks */,
@@ -167,6 +270,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		288D097C22DCE5E000F7A3BB /* TransloaditKit */ = {
+			isa = PBXGroup;
+			children = (
+				288D097D22DCE5E000F7A3BB /* TransloaditKit.h */,
+				288D097E22DCE5E000F7A3BB /* Info.plist */,
+			);
+			path = TransloaditKit;
+			sourceTree = "<group>";
+		};
+		288D098922DCE5E000F7A3BB /* TransloaditKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				288D098A22DCE5E000F7A3BB /* TransloaditKitTests.m */,
+				288D098C22DCE5E000F7A3BB /* Info.plist */,
+			);
+			path = TransloaditKitTests;
+			sourceTree = "<group>";
+		};
+		288D099822DCE66000F7A3BB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				288D099922DCE66000F7A3BB /* .gitkeep */,
+				288D099A22DCE66000F7A3BB /* test.jpg */,
+			);
+			name = Assets;
+			path = ../Transloadit/Assets;
+			sourceTree = "<group>";
+		};
+		288D099B22DCE66000F7A3BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				288D099C22DCE66000F7A3BB /* Transloadit.h */,
+				288D099D22DCE66000F7A3BB /* NSString+Utils.h */,
+				288D099E22DCE66000F7A3BB /* TransloaditResponse.h */,
+				288D099F22DCE66000F7A3BB /* Resources */,
+				288D09AF22DCE66000F7A3BB /* .gitkeep */,
+				288D09B022DCE66000F7A3BB /* TransloaditProtocol.h */,
+				288D09B122DCE66000F7A3BB /* TransloaditRequest.m */,
+				288D09B222DCE66000F7A3BB /* TransloaditDelegate.h */,
+				288D09B322DCE66000F7A3BB /* Transloadit.m */,
+				288D09B422DCE66000F7A3BB /* API Models */,
+				288D09B522DCE66000F7A3BB /* New Group */,
+				288D09B622DCE66000F7A3BB /* NSString+Utils.m */,
+				288D09B722DCE66000F7A3BB /* TransloaditResponse.m */,
+				288D09B822DCE66000F7A3BB /* TransloaditRequest.h */,
+			);
+			name = Classes;
+			path = ../Transloadit/Classes;
+			sourceTree = "<group>";
+		};
+		288D099F22DCE66000F7A3BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				288D09A022DCE66000F7A3BB /* Resources.h */,
+				288D09A122DCE66000F7A3BB /* Template */,
+				288D09A222DCE66000F7A3BB /* TransloaditConstants.h */,
+				288D09A322DCE66000F7A3BB /* API */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		288D09A122DCE66000F7A3BB /* Template */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		288D09A322DCE66000F7A3BB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				288D09A422DCE66000F7A3BB /* URLConstants.h */,
+				288D09A522DCE66000F7A3BB /* Assembly.h */,
+				288D09A622DCE66000F7A3BB /* Step.h */,
+				288D09A722DCE66000F7A3BB /* APIObjectType.h */,
+				288D09A822DCE66000F7A3BB /* Template.m */,
+				288D09A922DCE66000F7A3BB /* APIObject.m */,
+				288D09AA22DCE66000F7A3BB /* Assembly.m */,
+				288D09AB22DCE66000F7A3BB /* Step.m */,
+				288D09AC22DCE66000F7A3BB /* APIState.h */,
+				288D09AD22DCE66000F7A3BB /* APIObject.h */,
+				288D09AE22DCE66000F7A3BB /* Template.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		288D09B422DCE66000F7A3BB /* API Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Models";
+			sourceTree = "<group>";
+		};
+		288D09B522DCE66000F7A3BB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		28C00B391ECD8F1900430748 /* Transloadit_MacOS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,11 +418,15 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				288D099822DCE66000F7A3BB /* Assets */,
+				288D099B22DCE66000F7A3BB /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for Transloadit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				28C00B391ECD8F1900430748 /* Transloadit_MacOS_Example */,
 				28C00B501ECD8F1900430748 /* Transloadit_MacOS_ExampleTests */,
+				288D097C22DCE5E000F7A3BB /* TransloaditKit */,
+				288D098922DCE5E000F7A3BB /* TransloaditKitTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				3D2A6C041422882E64BB9C94 /* Pods */,
@@ -234,6 +441,8 @@
 				28C00B381ECD8F1900430748 /* Transloadit_MacOS_Example.app */,
 				28C00B4D1ECD8F1900430748 /* Transloadit_MacOS_ExampleTests.xctest */,
 				28C00B581ECD8F1900430748 /* Transloadit_MacOS_ExampleUITests.xctest */,
+				288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */,
+				288D098322DCE5E000F7A3BB /* TransloaditKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +450,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				288D0A1B22DCE91F00F7A3BB /* tus.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -310,7 +520,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		288D097622DCE5E000F7A3BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D098D22DCE5E000F7A3BB /* TransloaditKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		288D097A22DCE5E000F7A3BB /* TransloaditKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288D099622DCE5E000F7A3BB /* Build configuration list for PBXNativeTarget "TransloaditKit" */;
+			buildPhases = (
+				288D097622DCE5E000F7A3BB /* Headers */,
+				288D097722DCE5E000F7A3BB /* Sources */,
+				288D097822DCE5E000F7A3BB /* Frameworks */,
+				288D097922DCE5E000F7A3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransloaditKit;
+			productName = TransloaditKit;
+			productReference = 288D097B22DCE5E000F7A3BB /* TransloaditKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		288D098222DCE5E000F7A3BB /* TransloaditKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288D099722DCE5E000F7A3BB /* Build configuration list for PBXNativeTarget "TransloaditKitTests" */;
+			buildPhases = (
+				288D097F22DCE5E000F7A3BB /* Sources */,
+				288D098022DCE5E000F7A3BB /* Frameworks */,
+				288D098122DCE5E000F7A3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288D098622DCE5E000F7A3BB /* PBXTargetDependency */,
+				288D098822DCE5E000F7A3BB /* PBXTargetDependency */,
+			);
+			name = TransloaditKitTests;
+			productName = TransloaditKitTests;
+			productReference = 288D098322DCE5E000F7A3BB /* TransloaditKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		28C00B371ECD8F1900430748 /* Transloadit_MacOS_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28C00B651ECD8F1900430748 /* Build configuration list for PBXNativeTarget "Transloadit_MacOS_Example" */;
@@ -380,6 +638,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				288D098F22DCE5E000F7A3BB /* PBXTargetDependency */,
 			);
 			name = Transloadit_Example;
 			productName = Transloadit;
@@ -417,6 +676,17 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Mark R. Masterson";
 				TargetAttributes = {
+					288D097A22DCE5E000F7A3BB = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = MPKS94G26Q;
+						ProvisioningStyle = Automatic;
+					};
+					288D098222DCE5E000F7A3BB = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = MPKS94G26Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
 					28C00B371ECD8F1900430748 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = MPKS94G26Q;
@@ -449,6 +719,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -462,11 +733,27 @@
 				28C00B371ECD8F1900430748 /* Transloadit_MacOS_Example */,
 				28C00B4C1ECD8F1900430748 /* Transloadit_MacOS_ExampleTests */,
 				28C00B571ECD8F1900430748 /* Transloadit_MacOS_ExampleUITests */,
+				288D097A22DCE5E000F7A3BB /* TransloaditKit */,
+				288D098222DCE5E000F7A3BB /* TransloaditKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		288D097922DCE5E000F7A3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288D098122DCE5E000F7A3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28C00B361ECD8F1900430748 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -629,6 +916,46 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		288D097722DCE5E000F7A3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D09CA22DCE68E00F7A3BB /* .gitkeep in Sources */,
+				288D09CB22DCE68E00F7A3BB /* TransloaditProtocol.h in Sources */,
+				288D09CC22DCE68E00F7A3BB /* TransloaditRequest.m in Sources */,
+				288D09CD22DCE68E00F7A3BB /* TransloaditDelegate.h in Sources */,
+				288D09CE22DCE68E00F7A3BB /* Transloadit.m in Sources */,
+				288D09CF22DCE68E00F7A3BB /* NSString+Utils.m in Sources */,
+				288D09D022DCE68E00F7A3BB /* TransloaditResponse.m in Sources */,
+				288D09D122DCE68E00F7A3BB /* TransloaditRequest.h in Sources */,
+				288D09BF22DCE68700F7A3BB /* URLConstants.h in Sources */,
+				288D09C022DCE68700F7A3BB /* Assembly.h in Sources */,
+				288D09C122DCE68700F7A3BB /* Step.h in Sources */,
+				288D09C222DCE68700F7A3BB /* APIObjectType.h in Sources */,
+				288D09C322DCE68700F7A3BB /* Template.m in Sources */,
+				288D09C422DCE68700F7A3BB /* APIObject.m in Sources */,
+				288D09C522DCE68700F7A3BB /* Assembly.m in Sources */,
+				288D09C622DCE68700F7A3BB /* Step.m in Sources */,
+				288D09C722DCE68700F7A3BB /* APIState.h in Sources */,
+				288D09C822DCE68700F7A3BB /* APIObject.h in Sources */,
+				288D09C922DCE68700F7A3BB /* Template.h in Sources */,
+				288D09BE22DCE68200F7A3BB /* TransloaditConstants.h in Sources */,
+				288D09BD22DCE67F00F7A3BB /* Resources.h in Sources */,
+				288D09BC22DCE67B00F7A3BB /* TransloaditResponse.h in Sources */,
+				288D09BB22DCE67700F7A3BB /* NSString+Utils.h in Sources */,
+				288D09BA22DCE67300F7A3BB /* Transloadit.h in Sources */,
+				288D09B922DCE67000F7A3BB /* test.jpg in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288D097F22DCE5E000F7A3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D098B22DCE5E000F7A3BB /* TransloaditKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28C00B341ECD8F1900430748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,6 +1002,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		288D098622DCE5E000F7A3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288D097A22DCE5E000F7A3BB /* TransloaditKit */;
+			targetProxy = 288D098522DCE5E000F7A3BB /* PBXContainerItemProxy */;
+		};
+		288D098822DCE5E000F7A3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* Transloadit_Example */;
+			targetProxy = 288D098722DCE5E000F7A3BB /* PBXContainerItemProxy */;
+		};
+		288D098F22DCE5E000F7A3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288D097A22DCE5E000F7A3BB /* TransloaditKit */;
+			targetProxy = 288D098E22DCE5E000F7A3BB /* PBXContainerItemProxy */;
+		};
 		28C00B4F1ECD8F1900430748 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 28C00B371ECD8F1900430748 /* Transloadit_MacOS_Example */;
@@ -720,6 +1062,136 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		288D099222DCE5E000F7A3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MPKS94G26Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TransloaditKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transloadit.TransloaditKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		288D099322DCE5E000F7A3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MPKS94G26Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TransloaditKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transloadit.TransloaditKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		288D099422DCE5E000F7A3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MPKS94G26Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TransloaditKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transloadit.TransloaditKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transloadit_Example.app/Transloadit_Example";
+			};
+			name = Debug;
+		};
+		288D099522DCE5E000F7A3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MPKS94G26Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TransloaditKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transloadit.TransloaditKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transloadit_Example.app/Transloadit_Example";
+			};
+			name = Release;
+		};
 		28C00B5F1ECD8F1900430748 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65E16A8EE569809861EF1D39 /* Pods-Transloadit_MacOS_Example.debug.xcconfig */;
@@ -1085,6 +1557,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		288D099622DCE5E000F7A3BB /* Build configuration list for PBXNativeTarget "TransloaditKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288D099222DCE5E000F7A3BB /* Debug */,
+				288D099322DCE5E000F7A3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288D099722DCE5E000F7A3BB /* Build configuration list for PBXNativeTarget "TransloaditKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288D099422DCE5E000F7A3BB /* Debug */,
+				288D099522DCE5E000F7A3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28C00B651ECD8F1900430748 /* Build configuration list for PBXNativeTarget "Transloadit_MacOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
