@@ -93,7 +93,7 @@
 
 
 - (NSMutableDictionary*) getParams {
-    params = [[NSMutableDictionary alloc] init];
+    params = params ? params : [[NSMutableDictionary alloc] init];
     NSMutableDictionary *steps = [self getSteps];
     if ([self template] == NULL) {
         [params setObject:steps forKey:@"steps"];
